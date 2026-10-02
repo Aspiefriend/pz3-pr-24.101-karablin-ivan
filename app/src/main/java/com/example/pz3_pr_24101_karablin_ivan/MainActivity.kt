@@ -29,6 +29,9 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+    private fun showMessage() {
+        println("Hello, $appName")
+    }
 }
 
 @Composable
