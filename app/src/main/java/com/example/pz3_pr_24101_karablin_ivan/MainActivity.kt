@@ -15,6 +15,7 @@ import com.example.pz3_pr_24101_karablin_ivan.ui.theme.Pz3pr24101karablinivanThe
 
 class MainActivity : ComponentActivity() {
     private val appName = "FitPro"
+    private val version = "1.0"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
